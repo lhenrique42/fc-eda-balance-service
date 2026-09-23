@@ -1,0 +1,9 @@
+GET http://localhost:3003/balances/aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa HTTP/1.1
+
+###
+
+GET http://localhost:3003/balances/bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb HTTP/1.1
+
+###
+
+GET http://localhost:3003/balances/cccccccc-cccc-cccc-cccc-cccccccccccc HTTP/1.1
