@@ -28,6 +28,7 @@ func main() {
 	configMap := ckafka.ConfigMap{
 		"bootstrap.servers": "kafka:29092",
 		"group.id":          "balance-service",
+		"auto.offset.reset": "earliest",
 	}
 	consumer := kafka.NewConsumer(&configMap, []string{"balances"})
 
